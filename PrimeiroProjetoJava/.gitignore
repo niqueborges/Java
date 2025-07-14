@@ -1,29 +1,35 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Diretórios de saída
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Arquivos de log e sistema
+*.log
+*.tmp
+*.swp
 .DS_Store
+Thumbs.db
+
+# Arquivos de configuração de IDE Eclipse/NetBeans
+.classpath
+.project
+.settings/
+nbproject/
+
+# Arquivos de backup e temporários comuns
+*.bak
+*.old
+*.orig
+
+# Arquivos de sistema
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de cache
+.gradle/
+.mvn/
