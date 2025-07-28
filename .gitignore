@@ -33,3 +33,15 @@ Desktop.ini
 # Arquivos de cache
 .gradle/
 .mvn/
+
+# Arquivos compilados Java
+*.class
+
+# Node.js modules (if applicable)
+node_modules/
+
+# Arquivos de build Java
+*.jar
+*.war
+*.ear
+*.javadoc
