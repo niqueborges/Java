@@ -8,7 +8,6 @@ Java/
 ├── Dia1Fundamentos/ → Exercícios e exemplos dos fundamentos da linguagem
 └── PrimeiroProjetoJava/ → Primeiro projeto prático com estrutura básica
 
-
 ## 🚀 Tecnologias utilizadas
 
 - Java JDK 17+
@@ -28,10 +27,27 @@ Java/
 ## 🛠️ Como executar os projetos
 
 1. Clone este repositório:
+
    ```bash
    git clone https://github.com/niqueborges/Java.git
+   ```
 
 2. Abra a pasta desejada no IntelliJ IDEA
-
 3. Execute a classe Main ou conforme a estrutura do projeto
+## 🛠️ Compilação e execução via terminal
+
+Para compilar um arquivo Java:
+```bash
+javac src/NomeDoArquivo.java
+```
+Para executar:
+```bash
+java src.NomeDoArquivo
+```
+
+Se o projeto usar Maven:
+```bash
+mvn clean install
+mvn exec:java -Dexec.mainClass="pacote.ClassePrincipal"
+```
 
